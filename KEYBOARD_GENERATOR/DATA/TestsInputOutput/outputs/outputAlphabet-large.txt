@@ -1,0 +1,62 @@
+WELCOME TO DRIVER TEST
+Options:
+    1. createAlphabet
+    2. getAlphabet
+    3. listAlphabets
+    4. modifyAlphabet
+    5. deleteAlphabet
+    6. createMatrixText
+    7. createMatrixFrequencyList
+    8. getTransitionMatrix
+    9. listTransitionMatrix
+    10. deleteTransitionMatrix
+    11. createKeyboard
+    12. consultKeyboard
+    13. listKeyboardNames
+    14. modifyKeyboard
+    15. evaluateKeyboard
+    16. deleteKeyboard
+Enter case:     [0. show the options || -1. CLOSE]
+1. createAlphabet:    [USAGE: ALPHABET NAME (string) + ALPHABET ELEMENTS (char[])]
+
+Enter the identificator of the ALPHABET that you want
+
+Enter the number of elements for the ALPHABET
+
+Enter each character of the ALPHABET (one by one with an ENTER after each one)
+
+ALPHABET CREATED! next command
+
+Enter case:     [0. show the options || -1. CLOSE]
+4. modifyAlphabet    [USAGE: ALPHABET NAME (string)]
+
+Enter the identificator of the Alphabet
+Options to modify an Alphabet:
+    1. addElements
+    2. delElements
+   -1. EXIT
+
+How many characters would you like to add?
+Write the character/s you would like to add:
+Element/s added
+Enter case:     [0. show the options || -1. CLOSE]
+4. modifyAlphabet    [USAGE: ALPHABET NAME (string)]
+
+Enter the identificator of the Alphabet
+Options to modify an Alphabet:
+    1. addElements
+    2. delElements
+   -1. EXIT
+
+How many characters would you like to delete?
+Write the character/s you would like to delete:
+Element/s deleted
+Enter case:     [0. show the options || -1. CLOSE]
+2. getAlphabet:    [USAGE: ALPHABET NAME (string)]
+
+Enter the identificator of the Alphabet
+key: ALPHA-1
+elements:
+ @ A B D E F G H I J L M N Q Ñ S T U V W X Y Z ¡ ! + , - . 0 1 2 3 4 5 6 7 8 9 ? ¿
+Enter case:     [0. show the options || -1. CLOSE]
+EXIT APPLICATION, thanks ;)

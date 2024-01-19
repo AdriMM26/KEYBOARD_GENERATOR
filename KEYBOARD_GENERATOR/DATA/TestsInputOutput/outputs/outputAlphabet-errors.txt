@@ -1,0 +1,151 @@
+WELCOME TO DRIVER TEST
+Options:
+    1. createAlphabet
+    2. getAlphabet
+    3. listAlphabets
+    4. modifyAlphabet
+    5. deleteAlphabet
+    6. createMatrixText
+    7. createMatrixFrequencyList
+    8. getTransitionMatrix
+    9. listTransitionMatrix
+    10. deleteTransitionMatrix
+    11. createKeyboard
+    12. consultKeyboard
+    13. listKeyboardNames
+    14. modifyKeyboard
+    15. evaluateKeyboard
+    16. deleteKeyboard
+Enter case:     [0. show the options || -1. CLOSE]
+1. createAlphabet:    [USAGE: ALPHABET NAME (string) + ALPHABET ELEMENTS (char[])]
+
+Enter the identificator of the ALPHABET that you want
+
+Enter the number of elements for the ALPHABET
+
+The number of elements must be higher than 0. Try again
+Enter the number of elements for the ALPHABET
+
+The number of elements must be higher than 0. Try again
+Enter the number of elements for the ALPHABET
+
+Enter each character of the ALPHABET (one by one with an ENTER after each one)
+
+ALPHABET CREATED! next command
+
+Enter case:     [0. show the options || -1. CLOSE]
+2. getAlphabet:    [USAGE: ALPHABET NAME (string)]
+
+Enter the identificator of the Alphabet
+key: ALPHA-1
+elements:
+ Q
+Enter case:     [0. show the options || -1. CLOSE]
+4. modifyAlphabet    [USAGE: ALPHABET NAME (string)]
+
+Enter the identificator of the Alphabet
+ERROR: Alphabet ALPHA does not exist
+Enter case:     [0. show the options || -1. CLOSE]
+4. modifyAlphabet    [USAGE: ALPHABET NAME (string)]
+
+Enter the identificator of the Alphabet
+Options to modify an Alphabet:
+    1. addElements
+    2. delElements
+   -1. EXIT
+
+Input incorrect, try again:
+
+Options to modify an Alphabet:
+    1. addElements
+    2. delElements
+   -1. EXIT
+
+How many characters would you like to add?
+The number of elements must be higher than 0. Try again
+Enter the number of elements for the ALPHABET
+
+The number of elements must be higher than 0. Try again
+Enter the number of elements for the ALPHABET
+
+Write the character/s you would like to add:
+Some elements where ignored because they already exist in the Alphabet
+Element/s added
+Enter case:     [0. show the options || -1. CLOSE]
+4. modifyAlphabet    [USAGE: ALPHABET NAME (string)]
+
+Enter the identificator of the Alphabet
+Options to modify an Alphabet:
+    1. addElements
+    2. delElements
+   -1. EXIT
+
+How many characters would you like to delete?
+Write the character/s you would like to delete:
+The number of elements must be higher than 0. Try again
+Enter the number of elements for the ALPHABET
+
+The number of elements must be higher than 0. Try again
+Enter the number of elements for the ALPHABET
+
+Some elements where ignored because they didn't exist in the Alphabet or were repeated
+Element/s deleted
+Enter case:     [0. show the options || -1. CLOSE]
+4. modifyAlphabet    [USAGE: ALPHABET NAME (string)]
+
+Enter the identificator of the Alphabet
+Options to modify an Alphabet:
+    1. addElements
+    2. delElements
+   -1. EXIT
+
+How many characters would you like to delete?
+Write the character/s you would like to delete:
+ALPHABET DELETED due to deletion of all the elements! next command
+Enter case:     [0. show the options || -1. CLOSE]
+1. createAlphabet:    [USAGE: ALPHABET NAME (string) + ALPHABET ELEMENTS (char[])]
+
+Enter the identificator of the ALPHABET that you want
+
+Enter the number of elements for the ALPHABET
+
+The number of elements must be higher than 0. Try again
+Enter the number of elements for the ALPHABET
+
+The number of elements must be higher than 0. Try again
+Enter the number of elements for the ALPHABET
+
+Enter each character of the ALPHABET (one by one with an ENTER after each one)
+
+ALPHABET CREATED! next command
+
+Enter case:     [0. show the options || -1. CLOSE]
+5. deleteAlphabet:    [USAGE: ALPHABET NAME (string)]
+
+Enter the identificator of the Alphabet
+ERROR: Alphabet ALPHABET does not exist
+Enter case:     [0. show the options || -1. CLOSE]
+5. deleteAlphabet:    [USAGE: ALPHABET NAME (string)]
+
+Enter the identificator of the Alphabet
+ERROR: Alphabet alpha-1 does not exist
+Enter case:     [0. show the options || -1. CLOSE]
+5. deleteAlphabet:    [USAGE: ALPHABET NAME (string)]
+
+Enter the identificator of the Alphabet
+ERROR: Alphabet ALPHA-1 does not exist
+Enter case:     [0. show the options || -1. CLOSE]
+5. deleteAlphabet:    [USAGE: ALPHABET NAME (string)]
+
+Enter the identificator of the Alphabet
+ALPHABET DELETED! next command
+Enter case:     [0. show the options || -1. CLOSE]
+2. getAlphabet:    [USAGE: ALPHABET NAME (string)]
+
+Enter the identificator of the Alphabet
+ERROR: Alphabet ALPHA-2 does not exist
+Enter case:     [0. show the options || -1. CLOSE]
+3. listAlphabets:
+There aren't any Alphabets created at the moment
+Enter case:     [0. show the options || -1. CLOSE]
+EXIT APPLICATION, thanks ;)

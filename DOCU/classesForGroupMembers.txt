@@ -1,0 +1,54 @@
+Classes Authors/Main Responsible
+
+Arnau Tomas:
+- KeyboardController
+- Keyboard
+- KeyboardAvaluator
+- AlgorithmController
+- GreedyAlgorithm
+- QAPAlgorithmController
+- QAPAlgorithm
+- QAPPatrialSolution
+
+Arnau Gomez:
+- DomainController
+- InputController
+- InputViewController
+- InputView
+- AlphabetView
+- AddAlphabetView
+- DeleteAlphabetView
+- TransitionViewController
+- TransView
+- AddTextView
+- AddWordFrequencyView
+- DeleteTransitionView
+
+Adrià Martínez:
+- Testers
+- JavaDocs generation and mantaining
+- Jocs de Proves
+- Alphabet
+- PresentationController
+- Main
+- MainViewController
+- MenuView
+- KeyboardList
+- EvaluationView
+- AddKeyboardView
+- DisplayKeyboardView
+- DeleteKeyboardView
+- Error
+- OperationCorrect
+
+Roger Canal:
+- Drivers
+- Jocs de Proves
+- Text
+- WordFrequencyList
+- TransitionMatrix
+- PersistenceController
+- KeyboardsController
+- TransitionsController
+- AlphabetsController
+- CSVController

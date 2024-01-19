@@ -1,0 +1,74 @@
+WELCOME TO DRIVER TEST
+Options:
+    1. createAlphabet
+    2. getAlphabet
+    3. listAlphabets
+    4. modifyAlphabet
+    5. deleteAlphabet
+    6. createMatrixText
+    7. createMatrixFrequencyList
+    8. getTransitionMatrix
+    9. listTransitionMatrix
+    10. deleteTransitionMatrix
+    11. createKeyboard
+    12. consultKeyboard
+    13. listKeyboardNames
+    14. modifyKeyboard
+    15. evaluateKeyboard
+    16. deleteKeyboard
+Enter case:     [0. show the options || -1. CLOSE]
+1. createAlphabet:    [USAGE: ALPHABET NAME (string) + ALPHABET ELEMENTS (char[])]
+
+Enter the identificator of the ALPHABET that you want
+
+Enter the number of elements for the ALPHABET
+
+Enter each character of the ALPHABET (one by one with an ENTER after each one)
+
+ALPHABET CREATED! next command
+
+Enter case:     [0. show the options || -1. CLOSE]
+6. createMatrixText:    [USAGE: ALPHABET NAME (string) + TRANSITION NAME (string) + TEXT (string)]
+
+Enter the NAME of the ALPHABET used
+
+Enter the identificator of the TRANSITION:
+
+Enter the TEXT:
+ERROR: Word with characters not in the Alphabet
+Enter case:     [0. show the options || -1. CLOSE]
+Input incorrect, try again:
+Enter case:     [0. show the options || -1. CLOSE]
+Input incorrect, try again:
+Enter case:     [0. show the options || -1. CLOSE]
+6. createMatrixText:    [USAGE: ALPHABET NAME (string) + TRANSITION NAME (string) + TEXT (string)]
+
+Enter the NAME of the ALPHABET used
+
+ERROR: Alphabet ALPHA does not exist
+Enter case:     [0. show the options || -1. CLOSE]
+6. createMatrixText:    [USAGE: ALPHABET NAME (string) + TRANSITION NAME (string) + TEXT (string)]
+
+Enter the NAME of the ALPHABET used
+
+Enter the identificator of the TRANSITION:
+
+Enter the TEXT:
+TRANSITION CREATED! next command
+Enter case:     [0. show the options || -1. CLOSE]
+8. getTransitionMatrix:    [USAGE: TRANSITION NAME (string)]
+
+Enter the identificator of the Transition
+ERROR: Transition TRA does not exist
+Enter case:     [0. show the options || -1. CLOSE]
+8. getTransitionMatrix:    [USAGE: TRANSITION NAME (string)]
+
+Enter the identificator of the Transition
+key: Trans
+elements:
+ 0 1 0 0
+ 0 0 2 0
+ 0 0 0 1
+ 1 0 0 0
+Enter case:     [0. show the options || -1. CLOSE]
+EXIT APPLICATION, thanks ;)

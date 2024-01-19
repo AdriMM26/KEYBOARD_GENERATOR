@@ -1,0 +1,99 @@
+WELCOME TO DRIVER TEST
+Options:
+    1. createAlphabet
+    2. getAlphabet
+    3. listAlphabets
+    4. modifyAlphabet
+    5. deleteAlphabet
+    6. createMatrixText
+    7. createMatrixFrequencyList
+    8. getTransitionMatrix
+    9. listTransitionMatrix
+    10. deleteTransitionMatrix
+    11. createKeyboard
+    12. consultKeyboard
+    13. listKeyboardNames
+    14. modifyKeyboard
+    15. evaluateKeyboard
+    16. deleteKeyboard
+Enter case:     [0. show the options || -1. CLOSE]
+1. createAlphabet:    [USAGE: ALPHABET NAME (string) + ALPHABET ELEMENTS (char[])]
+
+Enter the identificator of the ALPHABET that you want
+
+Enter the number of elements for the ALPHABET
+
+Enter each character of the ALPHABET (one by one with an ENTER after each one)
+
+ALPHABET CREATED! next command
+
+Enter case:     [0. show the options || -1. CLOSE]
+6. createMatrixText:    [USAGE: ALPHABET NAME (string) + TRANSITION NAME (string) + TEXT (string)]
+
+Enter the NAME of the ALPHABET used
+
+Enter the identificator of the TRANSITION:
+
+Enter the TEXT:
+TRANSITION CREATED! next command
+Enter case:     [0. show the options || -1. CLOSE]
+11. createKeyboard:  ALGORITHM NAME (string) + TRANSITION NAME (string) + KEYBOARD (string)]
+
+Enter the identificator of the ALGORITHM ('QAP' or 'Greedy')
+
+ERROR: Algorithm GAP is not included in the list of algorithms implemented
+Enter case:     [0. show the options || -1. CLOSE]
+11. createKeyboard:  ALGORITHM NAME (string) + TRANSITION NAME (string) + KEYBOARD (string)]
+
+Enter the identificator of the ALGORITHM ('QAP' or 'Greedy')
+
+Enter the identificator of the TRANSITION
+
+ERROR: Transition trans-1 does not exist
+Enter case:     [0. show the options || -1. CLOSE]
+11. createKeyboard:  ALGORITHM NAME (string) + TRANSITION NAME (string) + KEYBOARD (string)]
+
+Enter the identificator of the ALGORITHM ('QAP' or 'Greedy')
+
+Enter the identificator of the TRANSITION
+
+Enter the Name of the KEYBOARD
+
+KEYBOARD CREATED! next command
+
+Enter case:     [0. show the options || -1. CLOSE]
+12. consultKeyboard:    [USAGE: KEBOARD NAME (string)]
+
+Enter the identificator of the Keyboard
+ERROR: KEYBOARD key does not exists
+Enter case:     [0. show the options || -1. CLOSE]
+12. consultKeyboard:    [USAGE: KEBOARD NAME (string)]
+
+Enter the identificator of the Keyboard
+key: KEY
+distribution:
+ R Q
+   W
+ E  
+Enter case:     [0. show the options || -1. CLOSE]
+14. modifyKeyboard:
+Enter the identificator of the Keyboard
+Enter the FIRST 'i' and 'j' position for the swap: 0 <= i < 3   0 <= j < 2
+Enter the SECOND 'i' and 'j' position for the swap: 0 <= i < 3   0 <= j < 2
+ERROR: first position incorrect
+Enter case:     [0. show the options || -1. CLOSE]
+15. evaluateKeyboard:    [USAGE: KEBOARD NAME (string)]
+
+Enter the identificator of the Keyboard
+Enter the identificator of the Transition to be evaluated
+ERROR: Transition trans does not exist
+Enter case:     [0. show the options || -1. CLOSE]
+16. deleteKeyboard:    [USAGE: KEBOARD NAME (string)]
+
+Enter the identificator of the Keyboard
+KEYBOARD DELETED! next command
+Enter case:     [0. show the options || -1. CLOSE]
+13. listKeyboardNames:
+There aren't any Keyboards created at the moment
+Enter case:     [0. show the options || -1. CLOSE]
+EXIT APPLICATION, thanks ;)
